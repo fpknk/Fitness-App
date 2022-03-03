@@ -248,7 +248,7 @@ const StyledCalories = styled.div`
   }
 
   .weight-container {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     h1 {
       margin-bottom: 10px;
     }
@@ -267,7 +267,7 @@ const StyledCalories = styled.div`
   }
 
   .activity-container {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     h1 {
       margin-bottom: 10px;
     }
@@ -280,7 +280,7 @@ const StyledCalories = styled.div`
     //Radio Styling
   }
   .goal-container {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     @media (max-width: 1000px) {
       margin: 0 5px;
     }
