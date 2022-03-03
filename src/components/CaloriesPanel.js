@@ -219,6 +219,9 @@ const StyledCalories = styled.div`
     @media (max-width: 1000px) {
       font-size: 16px;
     }
+    @media (max-width: 450px) {
+      font-size: 12px;
+    }
   }
   label {
     font-size: 15px;
@@ -255,6 +258,12 @@ const StyledCalories = styled.div`
         margin-left: 20%;
       }
     }
+    @media (max-width: 600px) {
+      margin: 0 1px;
+      input {
+        font-size: 10px;
+      }
+    }
   }
 
   .activity-container {
@@ -262,12 +271,24 @@ const StyledCalories = styled.div`
     h1 {
       margin-bottom: 10px;
     }
+    @media (max-width: 600px) {
+      margin: 0 1px;
+      label {
+        font-size: 8px;
+      }
+    }
     //Radio Styling
   }
   .goal-container {
     padding-bottom: 10%;
     @media (max-width: 1000px) {
       margin: 0 5px;
+    }
+    @media (max-width: 600px) {
+      margin: 0 1px;
+      label {
+        font-size: 8px;
+      }
     }
   }
 `;

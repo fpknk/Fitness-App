@@ -90,6 +90,20 @@ const StyledFaq = styled(StyledAbout)`
       line-height: 1rem;
     }
   }
+  @media (max-width: 650px) {
+    padding: 1.5rem;
+    margin: 0px;
+    .question {
+      padding: 0rem;
+    }
+    h4 {
+      padding: 0.3rem;
+      font-size: 14px;
+    }
+    .answer p {
+      font-size: 8px;
+    }
+  }
 `;
 
 export default FaqPanel;
